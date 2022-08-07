@@ -1,0 +1,168 @@
+:root {
+
+  --yellowPrimary: rgb(254, 202, 20);
+  --bluePrimary: rgb(15, 31, 103);
+  --yellowSecundary: rgb(255, 226, 0);
+  --blueSecundary: rgb(0, 65, 139);
+}
+
+
+
+.schedule__container {
+  width: 100%;
+  padding: 20px;
+}
+
+
+@media (max-width:500px) {
+  
+  .schedule__container{
+
+    position: relative;
+  }
+}
+
+@media (max-width:997px) {
+  
+
+  .titulo{
+   text-align: center;
+    font-weight: bold;
+  }
+
+  .calendario{
+
+    width: 100% !important;
+  }
+
+}
+
+@media (max-width:1500px) {
+  
+
+.schedule__container .caja-botones{
+
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+  gap: 10px !important;
+  text-align: center !important;
+}
+
+.schedule__container .caja-botones > * {
+
+  display: block !important;
+
+}
+
+.schedule__container .caja-botones button {
+
+ margin: 5px 10px;
+
+}
+     
+}
+.letter_watermark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.letter_watermark img {
+
+  position: absolute;
+  opacity: 0.1 !important;
+}
+
+.table-citas-agendadas{
+
+ 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.card-citas-agendadas{
+
+  display: block;
+  width: 100%;
+  border: 2px dashed var(--bluePrimary);
+  border-radius: 6px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 15px -4px rgba(133, 133, 133, 0.49);
+  box-shadow: 0px 4px 15px -4px rgba(133, 133, 133, 0.49);
+  text-align: left;
+}
+
+.card-tramite{
+
+    display: block;
+      width: 100%;
+      border: 2px dashed var(--bluePrimary);
+      border-radius: 6px;
+      padding: 20px;
+      -webkit-box-shadow: 0px 4px 15px -4px rgba(133, 133, 133, 0.49);
+      box-shadow: 0px 4px 15px -4px rgba(133, 133, 133, 0.49);
+      text-align: left;
+      position: relative;
+}
+
+.icono-tramite{
+  position: absolute;
+  
+}
+@media (max-width:770px){
+  .icono-tramite{
+    bottom: 50px;
+  }
+}
+
+.card-head .letter_watermark_agenda img{
+  width: 15%;
+  position: absolute;
+  opacity: 0.1;
+}
+
+.letter_watermark_agenda{
+  margin-left: 40%;
+}
+
+.card-head ul li {
+  color: black;
+}
+
+.letter_watermark_confirm {
+  display: flex;
+  justify-content: center;
+}
+
+.letter_text .letter_watermark_confirm img{
+  width: 55%;
+  position: absolute;
+  opacity: 0.1;
+}
+
+.letter_turn_text{
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.schedule__boton{
+  width: 50%;
+}
+
+.schedule__title h1{
+  color: black;
+  font-weight: bold;
+  font-size: 1.6rem;
+}

@@ -1,0 +1,30 @@
+.water-mark {
+  border: 3px dashed #0f1e65;
+  padding: 25px;
+}
+.logo-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  position: absolute;
+  width: 350px;
+  top: 0;
+  opacity: 0.2;
+}
+
+@media (max-width:960px) {
+    .table-resp {
+        display: grid !important;
+        width: 100%;
+        justify-content: unset !important;
+      }
+      .tb-btn-resp > span {
+      display: none !important;
+      }
+      
+}
+

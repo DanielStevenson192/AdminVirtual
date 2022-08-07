@@ -1,0 +1,99 @@
+
+:root{
+
+    --yellowPrimary: rgb(254, 202, 20);
+        --bluePrimary: rgb(15, 31, 103);
+        --yellowSecundary: rgb(255, 226, 0);
+        --blueSecundary: rgb(0, 65, 139);
+}
+
+
+/*DATA SCROLL CSS STYLES*/
+.datascroller .product-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.datascroller .product-description {
+    margin: 0 0 1rem 0;
+}
+
+.datascroller .product-category-icon {
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+
+.datascroller .product-category {
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.datascroller .product-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.datascroller .product-item img {
+    width: 150px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-right: 2rem;
+}
+
+.datascroller .product-item .product-detail {
+    flex: 1 1 0;
+}
+
+.datascroller .product-item .p-rating {
+    margin: 0 0 .5rem 0;
+}
+
+.datascroller .product-item .product-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    align-self: flex-end;
+}
+
+.datascroller .product-item .product-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.datascroller .product-item .p-button {
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .datascroller .product-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .datascroller .product-item img {
+        width: 75%;
+        margin: 2rem 0;
+    }
+
+    .datascroller .product-item .product-detail {
+        text-align: center;
+    }
+
+    .datascroller .product-item .product-price {
+        align-self: center;
+    }
+
+    .datascroller .product-item .product-action {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .datascroller .product-item .product-action {
+        margin-top: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}

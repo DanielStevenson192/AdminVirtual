@@ -1,0 +1,316 @@
+:root {
+  --yellowPrimary: rgb(254, 202, 20);
+  --bluePrimary: rgb(15, 31, 103);
+  --yellowSecundary: rgb(255, 226, 0);
+  --blueSecundary: rgb(0, 65, 139);
+}
+
+body {
+  background-color: #cccccc;
+}
+
+.col-azul {
+  background-color: #0d225b;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.menu-but {
+  background-color: transparent;
+  border: none;
+}
+
+.img-men {
+  width: 80px;
+}
+.img-men-1 {
+  width: 50px;
+}
+
+.item-list {
+  border-bottom: 1px solid #ffca01;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.dropdown-item {
+  font-size: 14px !important;
+  color: #0d225b !important;
+  padding: 10px !important;
+}
+
+.col-men {
+  color: white;
+  margin-top: 20px;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+  height: none;
+  cursor: pointer;
+  border-radius: 10px !important;
+  -webkit-box-shadow: -2px 10px 14px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 10px 14px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 10px 14px -7px rgba(0, 0, 0, 0.75);
+  border: none !important;
+  padding: 40px !important;
+}
+
+.col-blanco {
+  width: 100%;
+  background-color: white;
+  height: 175px;
+  border-radius: 30px;
+  margin-top: -190px;
+  position: relative;
+  -webkit-box-shadow: -2px 10px 15px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 10px 15px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 10px 15px -6px rgba(0, 0, 0, 0.75);
+}
+
+.col-envolved {
+  width: 100%;
+
+  background-color: white;
+  border-radius: 30px;
+  margin-top: -40px;
+  -webkit-box-shadow: -1px 13px 104px -12px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 13px 104px -12px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 13px 104px -12px rgba(0, 0, 0, 0.2);
+  padding: 60px;
+}
+
+.img-head {
+  width: 100%;
+  padding: 20px;
+}
+
+.img-card {
+  width: 100%;
+  height: 87px;
+}
+
+.col-card {
+  width: 100%;
+  height: 200px;
+  background-color: #ffca01;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.col-az-bajo {
+  background-color: #0d225b;
+  width: 100%;
+  height: 60px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: 13px;
+  text-align: center;
+  color: white;
+}
+
+.pad-img {
+  padding: 20px;
+}
+
+.tit {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.homeButton {
+  background-color: var(--bluePrimary) !important;
+}
+
+.btn_request {
+  background-color: var(--bluePrimary) !important;
+  border: none;
+}
+.btn_request:hover {
+  background-color: var(--blueSecundary) !important;
+}
+.btn_request:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 760px) {
+  .menu-but {
+    position: absolute;
+    left: 10%;
+    top: 20px;
+  }
+}
+
+.infocard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.infocard__logo {
+  position: absolute;
+  width: 50%;
+  z-index: 0;
+  opacity: 0.2;
+}
+
+.infocard__cuerpo {
+  padding: 20px;
+  border: 3px dashed var(--bluePrimary);
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 1;
+}
+.infocard__cuerpo__titulo {
+  font-weight: bold;
+  font-size: 34px;
+  margin-top: 10px;
+}
+.infocard__cuerpo__check i{
+  color: green;
+  font-weight: bold;
+  font-size: 70px;
+}
+.infocard__cuerpo__nota__notaConfirmacion {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+.infocard__cuerpo__nota__notaConfirmacion span {
+  font-weight: bold;
+}
+.infocard__cuerpo__listado {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.infocard__cuerpo__infoContacto {
+  text-align: center;
+
+}
+.infocard__cuerpo__infoContacto h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.infocard__cuerpo__footer{
+  display: flex;
+  justify-content: center;
+}
+.infocard__footer{
+  margin-top: 40px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 50%;
+}
+.infocard__footer h4{
+  color: black;
+}
+.p-button{
+  background-color: var(--bluePrimary) !important;
+}
+.p-dialog-content{
+  max-width: 500px;
+}
+
+.infocard__boton{
+  width: 50%;
+}
+
+.infocard__cuerpo h1{
+  font-size: 4rem;
+  color: black;
+}
+
+.infocard__note{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.infocard__note__text{
+  width: 90%;
+}
+
+.infocard__cuerpo__nota h2{
+  margin-top: 3%;
+  line-height: 1.5;
+  color: black;
+}
+
+@media (max-width:479px) {
+  .btn_request{
+
+    font-size: 12px;
+  }
+
+  .form-calendar{
+
+    padding: 20px;
+  }
+}
+
+
+@media (max-width:767px) {
+  
+
+.infocard__cuerpo__nota__notaConfirmacion {
+
+    font-size: 20px;
+  }
+
+  .infocard__note {
+
+    font-size: 15px;
+  }
+
+  .infocard__note h2 {
+
+    font-size: 15px;
+  }
+
+  .infocard__boton{
+
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width:387px) {
+  
+  .infocard__cuerpo__nota__notaConfirmacion {
+  
+      font-size: 15px;
+    }
+
+      .infocard__note {
+
+    font-size: 12px;
+  }
+
+  .infocard__note h2 {
+
+    font-size: 12px;
+  }
+
+  .infocard__cuerpo__infoContacto h3{
+
+    font-size: 10px;
+  }
+
+  .infocard{
+
+    border: none !important;
+  }
+}
+

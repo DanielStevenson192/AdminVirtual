@@ -1,0 +1,5 @@
+
+set REACT_APP_ENDPOINT=http://192.168.1.111:8080&& npx react-inject-env set
+set REACT_APP_ENDPOINT=https://devserver.advantage.com.co/quickturn&& npx react-inject-env set
+set REACT_APP_ENDPOINT=https://turnovirtual.cajahonor.gov.co/quickturn&& npx react-inject-env set
+set REACT_APP_ENDPOINT=https://srv2.advantage.com.co&& npx react-inject-env set
